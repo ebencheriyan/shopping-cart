@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="web-appl1ConnectionString-Web.config Connection String" description="web-appl1ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:web-app1.database.windows.net;Initial Catalog=web-appl1;Persist Security Info=True;User ID=eben;Password=webapp@123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\91771\\source\\repos\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='web-appl1ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
